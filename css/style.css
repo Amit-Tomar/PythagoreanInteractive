@@ -1,0 +1,70 @@
+	#highlighter {
+		fill: blue;
+		opacity: .5;
+	}
+
+	.lineHighLight {
+		stroke-width: .25em;
+	}
+
+	.lineHighLight.enabled {
+		opacity: 1;
+	}
+
+	.lineHighLight.disabled {
+		opacity: 0;
+	}
+
+	#HC1L,
+	#HC3L,
+	#HC2T,
+	#HC4T {
+		stroke: blue;
+	}
+
+	#HC1R,
+	#HC3R,
+	#HC2B,
+	#HC4B {
+		stroke: green;
+	}
+
+	a {
+		cursor: pointer;
+		cursor: hand;
+		color: blue;
+	}
+
+	p {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+	#definition {
+		right: 5%;
+		position: absolute;
+		top: 5%;
+		width: 40%;
+		background-color: white;
+	}
+
+	circle {
+		opacity: 0;
+	}
+
+	circle.enabled {
+		stroke: grey;
+		stroke-width: .1em;
+		fill: white;
+		opacity: 1.0;
+	}
+
+	svg.enabled {
+		stroke: grey;
+		fill: white;
+	}
+
+	svg.disabled {
+		stroke: lightgrey;
+		fill: white;
+	}

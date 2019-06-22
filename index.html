@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<svg id="baseSVG" class="enabled" width="50%" viewBox="-50 -50 650 650" xmlns="http://www.w3.org/2000/svg">
+		<rect width="300" height="300" id="B1" />
+		<polyline points="0 20 20 20 20 0" />
+		<polyline points="280 0 280 20 300 20" />
+		<polyline points="0 280 20 280 20 300" />
+		<polyline points="280 300 280 280 300 280" />
+		<line class="line" x1="60" y1="300" x2="0" y2="60" id="L1" />
+		<line class="line" x1="0" y1="60" x2="240" y2="0" id="L2" />
+		<line class="line" x1="240" y1="0" x2="300" y2="240" id="L3" />
+		<line class="line" x1="300" y1="240" x2="60" y2="300" id="L4" />
+		<line class="lineHighLight disabled" x1="0" y1="300" x2="60" y2="300" id="HC1L" />
+		<line class="lineHighLight disabled" x1="60" y1="300" x2="300" y2="300" id="HC1R" />
+		<line class="lineHighLight disabled" x1="0" y1="0" x2="0" y2="60" id="HC2T" />
+		<line class="lineHighLight disabled" x1="0" y1="60" x2="0" y2="300" id="HC2B" />
+		<line class="lineHighLight disabled" x1="0" y1="0" x2="240" y2="0" id="HC3L" />
+		<line class="lineHighLight disabled" x1="240" y1="0" x2="300" y2="0" id="HC3R" />
+		<line class="lineHighLight disabled" x1="300" y1="0" x2="300" y2="240" id="HC4T" />
+		<line class="lineHighLight disabled" x1="300" y1="240" x2="300" y2="300" id="HC4B" />
+		<circle class="draggable" cx="60" cy="300" r="8" id="P1" />
+		<circle class="draggable" cx="0" cy="60" r="8" id="P2" />
+		<circle class="draggable" cx="240" cy="0" r="8" id="P3" />
+		<circle class="draggable" cx="300" cy="240" r="8" id="P4" />
+		<text id="c1b" x="35" y="320" fill="black">b</text>
+		<text id="c1a" x="265" y="320" fill="black">a</text>
+		<text id="c2b" x="-35" y="35" fill="black">b</text>
+		<text id="c2a" x="-35" y="265" fill="black">a</text>
+		<text id="c3a" x="35" y="-15" fill="black">a</text>
+		<text id="c3b" x="265" y="-15" fill="black">b</text>
+		<text id="c4a" x="320" y="35" fill="black">a</text>
+		<text id="c4b" x="320" y="265" fill="black">b</text>
+		<text id="c12" x="40" y="170" fill="black">c</text>
+		<text id="c23" x="130" y="40" fill="black">c</text>
+		<text id="c34" x="260" y="130" fill="black">c</text>
+		<text id="c41" x="170" y="260" fill="black">c</text>
+		<rect id="highlighter" width="0" height="0"></rect>
+		<text id="cSquare" x="460" y="150" z="2" opacity="0" fill="white" stroke="white">C<tspan dy="-10">2</tspan>
+			</tspan></text>
+	</svg>
+
+	<div id="definition">
+		<p>In mathematics, the Pythagorean theorem, also known as Pythagoras' theorem, is a fundamental relation in
+			Euclidean geometry among the three sides of a right triangle. It states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides a, b and c, often called the "Pythagorean equation".
+		</p>
+		</br>
+		<b>Area of square</b> = <a onClick="runAnimation();">c<sup>2</sup></a>
+		</p>
+	</div>
+
+	</br>
+
+</body>
+
+<script type="text/javascript" src="js/svgDraggable.js"></script>
+<script type="text/javascript" src="js/svgHandler.js">
+
+</script>
+
+</html>

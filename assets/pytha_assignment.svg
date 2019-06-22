@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-50 -50 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" id="B1"/>
+  <polyline points="0 20 20 20 20 0"/>
+  <polyline points="280 0 280 20 300 20"/>
+  <polyline points="0 280 20 280 20 300"/>
+  <polyline points="280 300 280 280 300 280"/>
+  <line class="line" x1="60" y1="300" x2="0" y2="60" id="L1"/>
+  <line class="line" x1="0" y1="60" x2="240" y2="0" id="L2"/>
+  <line class="line" x1="240" y1="0" x2="300" y2="240" id="L3"/>
+  <line class="line" x1="300" y1="240" x2="60" y2="300" id="L4"/>
+  <circle class="draggable" cx="60" cy="300" r="8" id="P1"/>
+  <circle class="draggable" cx="0" cy="60" r="8" id="P2"/>
+  <circle class="draggable" cx="240" cy="0" r="8" id="P3"/>
+  <circle class="draggable" cx="300" cy="240" r="8" id="P4"/>
+  <style>
+  </style>
+</svg>
